@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2D Framework">
+      <UniqueIdentifier>{37a12a8b-1e51-4e96-8efb-d2e5e282e44b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame">
+      <UniqueIdentifier>{a603f8e0-4e04-4a58-bb08-b78f329cab08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\image">
+      <UniqueIdentifier>{1323f2ab-528c-4f84-b9bd-c32ef4caf211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\manager">
+      <UniqueIdentifier>{114f079b-a42a-49c2-b096-a45cc478f133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\singleton">
+      <UniqueIdentifier>{6887183b-da69-4d4d-9c5f-533fded03c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\gameNode">
+      <UniqueIdentifier>{b8da43dc-e863-415a-92c9-2fa5e808cd93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\animation">
+      <UniqueIdentifier>{30cf1fe5-ff81-49f0-9d8c-9141daffaec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="2D Framework\util">
+      <UniqueIdentifier>{16103707-dfde-4dfe-bc0d-87fb75ac8276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\player">
+      <UniqueIdentifier>{53804e0e-8535-4129-b219-e7103dfdbf47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\enemy">
+      <UniqueIdentifier>{6c042204-e806-406f-994f-98457e57a087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\boss">
+      <UniqueIdentifier>{8332ad51-4e41-412a-a089-5316419cb4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\item">
+      <UniqueIdentifier>{5e393603-c5d3-4b77-aee9-f86f9612a599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\scene">
+      <UniqueIdentifier>{76669c25-6541-43a8-a41e-7531ee23f4bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="2D framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2D Framework\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>2D Framework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="inputManager.h">
+      <Filter>2D Framework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2D Framework\gameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2D Framework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="macroFuction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2D Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2D Framework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>2D Framework\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraManager.h">
+      <Filter>2D Framework\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="myUtil.h">
+      <Filter>2D Framework\util</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>mainGame\player</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet_player.h">
+      <Filter>mainGame\player</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>mainGame\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_blue.h">
+      <Filter>mainGame\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_red.h">
+      <Filter>mainGame\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyManager.h">
+      <Filter>mainGame\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet_enemy.h">
+      <Filter>mainGame\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="boss.h">
+      <Filter>mainGame\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet_boss.h">
+      <Filter>mainGame\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>mainGame\item</Filter>
+    </ClInclude>
+    <ClInclude Include="itemManager.h">
+      <Filter>mainGame\item</Filter>
+    </ClInclude>
+    <ClInclude Include="mainScene.h">
+      <Filter>mainGame\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="playScene.h">
+      <Filter>mainGame\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="resultScene.h">
+      <Filter>mainGame\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="selectScene.h">
+      <Filter>mainGame\scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2D framework.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>2D Framework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="inputManager.cpp">
+      <Filter>2D Framework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2D Framework\gameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2D Framework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2D Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2D Framework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>2D Framework\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraManager.cpp">
+      <Filter>2D Framework\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="myUtil.cpp">
+      <Filter>2D Framework\util</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>mainGame\player</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet_player.cpp">
+      <Filter>mainGame\player</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>mainGame\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_blue.cpp">
+      <Filter>mainGame\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_red.cpp">
+      <Filter>mainGame\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyManager.cpp">
+      <Filter>mainGame\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet_enemy.cpp">
+      <Filter>mainGame\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="boss.cpp">
+      <Filter>mainGame\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet_boss.cpp">
+      <Filter>mainGame\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>mainGame\item</Filter>
+    </ClCompile>
+    <ClCompile Include="itemManager.cpp">
+      <Filter>mainGame\item</Filter>
+    </ClCompile>
+    <ClCompile Include="mainScene.cpp">
+      <Filter>mainGame\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="playScene.cpp">
+      <Filter>mainGame\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="resultScene.cpp">
+      <Filter>mainGame\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="selectScene.cpp">
+      <Filter>mainGame\scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="2D framework.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="2D framework.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
